@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationSuite]">
+  <test name="TestChrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="script.WBT">
+        <methods>
+          <include name="openApp"/>
+          <include name="testWBT"/>
+          <include name="initFrameWork"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.WBT -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+  <test name="TestFirefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="script.WBT">
+        <methods>
+          <include name="openApp"/>
+          <include name="testWBT"/>
+          <include name="initFrameWork"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.WBT -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->
