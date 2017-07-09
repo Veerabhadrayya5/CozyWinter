@@ -17,9 +17,9 @@ public class WBT extends BaseTest{
 	public void testWBT()
 	{
 		
-	//	log.info("My 1st log");
-	//	log.info("executing....");
-int r=	Excel.getRowValue(INPUT_PATH, "sheet1");
+	/*	log.info("My 1st log");
+		log.info("executing....");
+*/int r=	Excel.getRowValue(INPUT_PATH, "sheet1");
 log.info("RowCount"+r);
 	
 
